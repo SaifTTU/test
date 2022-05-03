@@ -27,6 +27,9 @@
 // REMOVING THAT FILE -- SO THAT WE DON'T ACCIDENTALLY DELETE A FILE WE WILL NEED LATER!
 // ./test testdir -remove testfile
 //
+//
+//
+//
 #include <stdio.h>
 #include <dirent.h>
 #include <string.h>
