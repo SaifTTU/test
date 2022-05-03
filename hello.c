@@ -3,17 +3,24 @@
 //	mkdir testdir
 //	mkdir testdir2
 //	touch testfile
-//		//AND THESE 4 only if you want to:
+//	//AND THESE 4 ONLY IF YOU WANT TO:
 //		cd testdir
 //		mkdir subdir
 //		touch testfile2
 //		cd ..
+// //COMPILING
 // gcc -o test hello.c
+// RUNNING WITH DIRECTORY
 // ./test testdir
+// RUNNING WITH NAME
 // ./test testdir -name testfile
+// RUNNING WITH MMIN
 // ./test testdir -mmin 5
+// RUNNING WITH INUM
 // ./test testdir -inum 5
+// CREATING A FILE TO REMOVE
 // touch testfile
+// REMOVING THAT FILE -- SO THAT WE DON'T ACCIDENTALLY DELETE A FILE WE WILL USE LATER
 // ./test testdir -remove testfile
 #include <stdio.h>
 #include <dirent.h>
