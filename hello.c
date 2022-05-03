@@ -10,18 +10,23 @@
 //		cd ..
 // //COMPILING
 // gcc -o test hello.c
-// RUNNING WITH DIRECTORY
+// RUNNING WITH ONLY THE DIRECTORY
 // ./test testdir
+//
 // RUNNING WITH NAME
 // ./test testdir -name testfile
+//
 // RUNNING WITH MMIN
 // ./test testdir -mmin 5
 // RUNNING WITH INUM
 // ./test testdir -inum 5
+//
+// REMOVING A FILE
 // CREATING A FILE TO REMOVE
 // touch testfile
-// REMOVING THAT FILE -- SO THAT WE DON'T ACCIDENTALLY DELETE A FILE WE WILL USE LATER
+// REMOVING THAT FILE -- SO THAT WE DON'T ACCIDENTALLY DELETE A FILE WE WILL NEED LATER!
 // ./test testdir -remove testfile
+//
 #include <stdio.h>
 #include <dirent.h>
 #include <string.h>
