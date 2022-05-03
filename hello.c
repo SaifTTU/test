@@ -1,4 +1,13 @@
 //READ ME - to run the commands use the following: 
+// ADDITIONALLY: do these: 
+//	mkdir testdir
+//	mkdir testdir2
+//	touch testfile
+//		//AND THESE 4 only if you want to:
+//		cd testdir
+//		mkdir subdir
+//		touch testfile2
+//		cd ..
 // gcc -o test hello.c
 // ./test testdir
 // ./test testdir -name testfile
