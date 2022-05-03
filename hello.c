@@ -75,7 +75,7 @@ int main (int argc, char *argv[]) {
             if(strcmp(argv[2],"-remove")==0){
                 if(strcmp(argv[3],pDirent->d_name)==0){
                     printf ("removed %s\n", pDirent->d_name);
-                    remove(pDirent->d_name);
+                    remove(argv[3]);
                 }
             }
         }
